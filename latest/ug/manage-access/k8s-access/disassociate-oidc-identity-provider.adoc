@@ -1,0 +1,13 @@
+//!!NODE_ROOT <section>
+
+[.topic]
+[[disassociate-oidc-identity-provider,disassociate-oidc-identity-provider.title]]
+= Disassociate an [.noloc]`OIDC` identity provider from your cluster
+:info_doctype: section
+
+include::../../attributes.txt[]
+
+If you disassociate an [.noloc]`OIDC` identity provider from your cluster, users included in the provider can no longer access the cluster. However, you can still access the cluster with   link:IAM/latest/UserGuide/id_roles.html#iam-term-principal[IAM principals,type="documentation"].
+
+. Open the link:eks/home#/clusters[Amazon EKS console,type="console"].
+. In the *[.noloc]`OIDC` Identity Providers* section, select  *Disassociate*, enter the identity provider name, and then select `Disassociate`.
